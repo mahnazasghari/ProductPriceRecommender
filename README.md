@@ -2,17 +2,7 @@
 
 In this project, we develop an application that uses machine learning algorithms to recommend selling prices for products. This application can assist manufacturing companies and retailers in pricing the products. The application uses the data about laptops and their features to train the machine learning algorithms. So, given the specifications of a laptop, the application can recommend a good selling price for it. With some modifications, the application can be used for other products than laptops.
 
-In this project, we use Best Buy's [Products API](https://bestbuyapis.github.io/api-documentation/#products-api) and [Categories API](https://bestbuyapis.github.io/api-documentation/#categories-api) to collect data about laptops that can be bought now on the website of [Best Buy](https://www.bestbuy.com/).
-
-
-
-
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this project, we crawl [Best Buy's website](https://www.bestbuy.com/) using their [Products API](https://bestbuyapis.github.io/api-documentation/#products-api) and [Categories API](https://bestbuyapis.github.io/api-documentation/#categories-api) to collect data about laptops that can be bought now on Best Buy's website. The following laptop features and specifications are considered in the project: 2-in-1 design, Backlit keyboard, Brand, Color, Number of HDMI ports, Number of USB ports, Battery life, Graphics, Optical drive type, Processor model, Weight, Screen resolution, Screen size, SSD capacity, Total storage, RAM, Touch screen, Average customer review, and price.
 
 ```markdown
 Syntax highlighted code block

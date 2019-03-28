@@ -1,6 +1,12 @@
-## Welcome to GitHub Pages
+# Price Recommender for Products
 
-You can use the [editor on GitHub](https://github.com/mahnazasghari/ProductPriceRecommender/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this project, we develop an application that uses machine learning algorithms to recommend selling prices for products. This application can assist manufacturing companies and retailers in pricing the products. The application uses the data about laptops and their features to train the machine learning algorithms. So, given the specifications of a laptop, the application can recommend a good selling price for it. With some modifications, the application can be used for other products than laptops.
+
+In this project, we use Best Buy's [Products API](https://bestbuyapis.github.io/api-documentation/#products-api) and [Categories API](https://bestbuyapis.github.io/api-documentation/#categories-api) to collect data about laptops that can be bought now on the website of [Best Buy](https://www.bestbuy.com/).
+
+
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
